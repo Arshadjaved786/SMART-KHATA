@@ -1,0 +1,21 @@
+{
+  "short_name": "SmartKhata",
+  "name": "Smart Khata Accounting System",
+  "description": "Smart Khata - Online Accounting Software for Businesses",
+  "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/login",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#2563eb",
+  "background_color": "#ffffff",
+  "categories": ["business", "finance"],
+  "lang": "en"
+}
