@@ -54,4 +54,8 @@ app.use("/api/print-settings", require("./routes/printSettingRoutes"));
 app.use("/api/print", require("./routes/printRoutes"));
 app.use("/api/print", require("./routes/ledgerPrintRoutes"));
 
+app.get("/", (req, res) => {
+  res.send("Smart Khata Backend is Running 🚀");
+});
+
 module.exports = app;
